@@ -1,0 +1,11 @@
+{
+  "cart": [
+    
+    { "name": "Hoodie", "category": "Clothing", "price": 700 },
+    { "name": "Bag", "category": "Accessories", "price": 640 }
+  ],
+  "campaigns": [
+    
+    { "type": "Seasonal", "every": 300, "discount": 40 }
+  ]
+}
