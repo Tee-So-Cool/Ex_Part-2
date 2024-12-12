@@ -1,11 +1,17 @@
 {
   "cart": [
-    
+    { "name": "T-Shirt", "category": "Clothing", "price": 350 },
+    { "name": "Hat", "category": "Accessories", "price": 250 },
+    { "name": "Belt", "category": "Accessories", "price": 230 },
+    { "name": "Watch", "category": "Accessories", "price": 850 },
     { "name": "Hoodie", "category": "Clothing", "price": 700 },
     { "name": "Bag", "category": "Accessories", "price": 640 }
   ],
   "campaigns": [
-    
+    { "type": "FixedAmount", "amount": 50 },
+    { "type": "Percentage", "percentage": 15 },
+    { "type": "CategoryPercentage", "category": "Clothing", "percentage": 15 },
+    { "type": "Points", "points": 250 },
     { "type": "Seasonal", "every": 300, "discount": 40 }
   ]
 }
